@@ -37,6 +37,10 @@ Contains subprofiles eg.:
     extra vim
     extra vim-runtime
     extra zsh
+    
+To get list from installed packages you can use this one-liner:
+
+    LIST=$(pacman -Sl); for PKG in $(pacman -Qq); do echo "$LIST" | grep " $PKG "; done | cut -d' ' -f1,2
        
 ## Usage
 `python3 pacdl.py [-h] [-y] [-u] [-c]`
