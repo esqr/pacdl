@@ -1,0 +1,5 @@
+[paths]
+profiles = /home/esqr/pacdl/profiles
+mirror = /home/nginx/www/pacdl/mirror
+local = /home/esqr/pacdl/local
+lock_file = /tmp/pacshare.lck

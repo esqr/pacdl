@@ -1,0 +1,17 @@
+[core]
+Include = mirrorlist
+
+[extra]
+Include = mirrorlist
+
+[community]
+Include = mirrorlist
+
+[multilib]
+Include = mirrorlist
+
+# Some men just want to watch the kernel panic
+[repo-ck]
+Server = http://repo-ck.com/$arch
+Server = http://repo-ck.com/$arch
+Server = http://repo-ck.com/$arch

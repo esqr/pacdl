@@ -1,0 +1,3 @@
+[pc]
+arch = x86_64
+packages = packages_pc
